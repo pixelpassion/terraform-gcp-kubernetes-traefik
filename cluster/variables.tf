@@ -10,15 +10,11 @@ variable gcp_project_name {
   default = "Demo Terraform k8s GKE traefik"
 }
 
-variable "gcp_billing_accpint_name" {
-  default = "Mein Rechnungskonto"
-}
-
 variable region {
   default = "europe-west3"
 }
 
-variable zone {
+variable location {
   default = "europe-west3-a"
 }
 
